@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #ccc;
+}
+
+header {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #333;
+  background: #ccc;
+}
+
+.left {
+	float: left;
+	width: 50%%;
+	color: #fff;
+}
+
+#left {
+  float: left;
+  width: 33.3%;
+  color: #fff;
+  background: #666;
+}
+
+#clear{
+	clear:both;
+}
