@@ -28,6 +28,7 @@ header div{
   width:960px;
   margin: auto;
 }
+
 aside {
   float: left;
   width: 225px;
@@ -66,7 +67,6 @@ nav a {
   color: #777777;
 }
 
-
 #body-width {
   margin: auto;
   width:960px;
@@ -81,6 +81,12 @@ nav a {
   border: 1px solid #dddddd;
   padding: 25px
 }
+
+#headshot{
+  float: left;
+  margin: 25px 15px 15px 0px;
+}
+
 h2 {
   font-family: "Georgia";
   text-align: left;
@@ -92,11 +98,12 @@ h2 {
   color: #4aaaa5;
   background-color: #ffffff;
 }
+
 p {
   text-align: left;
   margin-top: 25px;
   font-family: 'Arial';
-  font-size: 12px;
+  font-size: 16px;
   color: #777777;
 }
 
@@ -114,7 +121,7 @@ p {
 h3 {
   font-family: "Georgia";
   text-align: center;
-  font-size: 18px;
+  font-size: 20px;
   border-style: none none solid none;
   border-bottom-color: #cccccc;
   padding-bottom: 5px;
@@ -129,7 +136,36 @@ h3 {
   text-align: center;
 }
 
+input {
+  width:100%;
+  text-align: left;
+  padding: 5px;
+  color: #777777;
+  font-size: 14px;
+  resize: height;
+}
+
+#message {
+  height: 150px;
+}
+
+input[type=submit] {
+  height: 25px;
+  width: 80px;
+}
+
+form {
+  font-family: 'Arial';
+  font-size: 16px;
+  color: #777777;
+  text-align: left;
+}
+
+.content {
+  min-height: calc(100vh - 80px);
+}
 footer {
+  width: 100%;
   background-color: #666666;
   padding: 20px;
   clear: both;
@@ -139,4 +175,5 @@ footer {
   border-style: solid none none none;
   border-top-color: #4aaaa5;
   border-width: 8px;
+
 }
