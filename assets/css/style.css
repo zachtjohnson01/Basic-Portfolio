@@ -140,25 +140,43 @@ input {
   width:100%;
   text-align: left;
   padding: 5px;
-  color: #777777;
   font-size: 14px;
   resize: height;
 }
 
 #message {
   height: 150px;
+  padding-bottom:120px;
+  width: 100%;
+  text-align: left;
 }
 
-input[type=submit] {
-  height: 25px;
-  width: 80px;
-}
 
 form {
   font-family: 'Arial';
   font-size: 16px;
   color: #777777;
   text-align: left;
+}
+
+input::placeholder {
+  color: #7777778c;
+}
+
+input::focus {
+  color:#4aaaa5;;
+}
+
+input[type=submit] {
+  background-color: #4aaaa5;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Arial';
+  margin-top:15px;
+  width:110px;
+  height:40px;
+  font-size:18px;
+  border-radius: 0px;
 }
 
 .content {
