@@ -78,13 +78,48 @@ nav a {
   overflow: auto;
   width: 650px;
   margin-top: 20px;
+  margin-bottom: 20px;
   border: 1px solid #dddddd;
   padding: 25px
 }
 
 #headshot{
   float: left;
-  margin: 25px 15px 15px 0px;
+  margin: 0px 15px 15px 0px;
+}
+
+.portfolio-pics {
+  float:left;
+  width: 275px;
+  margin: 0px 0px 50px 0px;
+}
+
+.float-left {
+  float: left;
+} 
+
+.float-right {
+  float:right;  
+}
+
+.project-name {
+  float: left;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  text-align: center;
+  font-size: 24px;
+  font-family: "serif";
+  position: absolute;
+  margin-top: 140px;
+  height: 70px;
+  width: 275px;
+  line-height: 70px;
+}
+
+.project-holder {
+  height: 222px;
+  width:275px;
+  margin-bottom: 30px;
 }
 
 h2 {
@@ -97,11 +132,11 @@ h2 {
   border-bottom-color: #cccccc;
   color: #4aaaa5;
   background-color: #ffffff;
+  margin-bottom: 25px;
 }
 
 p {
   text-align: left;
-  margin-top: 25px;
   font-family: 'Arial';
   font-size: 16px;
   color: #777777;
@@ -149,6 +184,7 @@ input {
   padding-bottom:120px;
   width: 100%;
   text-align: left;
+  font-size: 14px;
 }
 
 
@@ -193,5 +229,6 @@ footer {
   border-style: solid none none none;
   border-top-color: #4aaaa5;
   border-width: 8px;
-
 }
+
+
